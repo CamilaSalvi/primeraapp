@@ -6,9 +6,9 @@ function NavBar() {
   return (
     <div> 
       <h1 className='titulo'>Lady Threads</h1>
+      <nav>
       <ul className='nabbar'>
         <img src={hilo} className='hilo'></img>
-
         <li className='nabbar__items'>
           Mi tienda
         </li>
@@ -21,6 +21,7 @@ function NavBar() {
         <li className='nabbar__items'> Medios de Pago</li>
         <img src={corazon} alt='corazon rojo fondo transparente' className='corazon'></img>
       </ul>
+      </nav>
     </div>
   );
 }
