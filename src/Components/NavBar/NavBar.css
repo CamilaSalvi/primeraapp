@@ -1,9 +1,42 @@
-.nabbar{
-    list-style: none;
-    background-color: rgb(241, 115, 182);
-    color: rgba(255, 255, 255, 0.944);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: initial;
-    font-size: medium;
+.hilo{
+    width: 40px;
+    height: 40px;
     display: inline;
+    align-items: center;
+    margin: 3px;  
+}
+
+.titulo{
+    margin: 0px;
+    background-color: rgb(142, 207, 240);
+    padding: 10px;
+    color: white;
+    font-size: 70px;
+}
+
+.nabbar{
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(228, 156, 194);
+}
+
+.nabbar__items{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 50px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: azure;
+    display: inline;
+    align-items: center;
+}
+
+.corazon{
+    width: 30px;
+    height: 30px;
+    display: inline;
+    align-items: center;
+    margin: 3px;
 }
