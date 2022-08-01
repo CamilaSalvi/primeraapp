@@ -1,0 +1,28 @@
+.foto{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    align-items: center;
+    display: inline;
+}
+
+.texto{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 50px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    display: inline;
+    align-items: center;
+    background-color: rgb(224, 175, 201);
+}
+
+.botones{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    display: inline;
+    background-color:  rgb(142, 207, 240);
+    border-color: white;
+    color: white;
+}

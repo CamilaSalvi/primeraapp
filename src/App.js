@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import './Components/NavBar/NavBar.css';
+import ItemCount from './Components/ItemCount/ItemCount';
+import './Components/ItemCount/ItemCount.css';
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
       </header>
       <body>
         <NavBar> </NavBar>
+        <ItemCount itemVenta='Vestido Sarah'></ItemCount>
       </body>
 
     </div>

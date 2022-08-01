@@ -23,6 +23,7 @@ function NavBar() {
       </ul>
       </nav>
     </div>
+
   );
 }
 
