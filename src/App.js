@@ -17,7 +17,7 @@ function App() {
         <NavBar> 
 
         </NavBar>
-        
+        <CartWidget></CartWidget>
         <ItemCount greeting='Bienvenida a nuestra tienda de vestidos de novias. Nuestro sueño es el tuyo.' itemVenta='Vestido Sarah'></ItemCount>
       </body>
 
