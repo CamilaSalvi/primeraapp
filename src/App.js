@@ -4,6 +4,8 @@ import NavBar from './Components/NavBar/NavBar';
 import './Components/NavBar/NavBar.css';
 import ItemCount from './Components/ItemCount/ItemCount';
 import './Components/ItemCount/ItemCount.css';
+import CartWidget from './Components/CartWidget/CartWidget';
+import './Components/CartWidget/CartWidget.css';
 
 
 function App() {
@@ -12,8 +14,11 @@ function App() {
       <header>
       </header>
       <body>
-        <NavBar> </NavBar>
-        <ItemCount itemVenta='Vestido Sarah'></ItemCount>
+        <NavBar> 
+
+        </NavBar>
+        
+        <ItemCount greeting='Bienvenida a nuestra tienda de vestidos de novias. Nuestro sueño es el tuyo.' itemVenta='Vestido Sarah'></ItemCount>
       </body>
 
     </div>

@@ -14,13 +14,19 @@ function ItemCount (props) {
     }
 
     return (
-        <div className='texto'>
-            <h2>{props.itemVenta}</h2>
-            <img src={vestidoSarah} className="foto"></img>
-            <button onClick={agregar} className="botones">+</button>
-            <p> {contador} </p>
-            <button onClick={quitar} className="botones">-</button>
+        <div>
+            <p className='greeting'>{props.greeting}</p>
+            <div className='tarjeta1'>
+                <h2>{props.itemVenta}</h2>
+                <img src={vestidoSarah} className="foto"></img>
+                <p className='texto'>Vestido de novia. Verano 2022-2023. Escote en "v" con detalles en los hombros y la cintura con diamantes. Falda de tul y trapeado en el pecho. Talle Único.</p>
+                <p>Cantidad Solicitada</p>
+                <button onClick={agregar} className="botones">+</button>
+                <p> {contador} </p>
+                <button onClick={quitar} className="botones">-</button>
+            </div>
         </div>
+
     );
 }
 

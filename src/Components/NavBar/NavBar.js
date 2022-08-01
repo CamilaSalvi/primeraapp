@@ -1,6 +1,8 @@
 import './NavBar.css';
 import corazon from './corazon.png';
 import hilo from './hilo.png';
+import CartWidget from '../CartWidget/CartWidget';
+
 
 function NavBar() {
   return (
@@ -20,6 +22,7 @@ function NavBar() {
         </li>
         <li className='nabbar__items'> Medios de Pago</li>
         <img src={corazon} alt='corazon rojo fondo transparente' className='corazon'></img>
+        <li><CartWidget></CartWidget></li>
       </ul>
       </nav>
     </div>
